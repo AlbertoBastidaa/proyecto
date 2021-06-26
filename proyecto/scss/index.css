@@ -1,0 +1,31 @@
+body {
+  background: linear-gradient(150deg, #8f8b81, #858de1, #41e4b3);
+  background-size: 400% 300%;
+  -webkit-animation: BgGradient 3s infinite;
+          animation: BgGradient 3s infinite;
+}
+
+@-webkit-keyframes BgGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes BgGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/*# sourceMappingURL=index.css.map */
